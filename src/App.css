@@ -1,0 +1,39 @@
+.App{
+  min-height: 100vh;
+  background-color: azure;
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  position: fixed;
+  left: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border-width: 2px;
+  border-style: double;
+  border-color: rgb(138, 141, 141);
+  padding: 10px;
+}
+.search-button {
+  background-color: rgb(97, 103, 199);
+  margin: 2px;
+  border: none;
+  padding: 10px 20px;
+  color: whitesmoke;
+}
+
+.recipes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 120px 90px 120px;
+  padding-top: 50px;
+}
+.my-way {
+  margin: 20px 50px 20px 50px;
+}
